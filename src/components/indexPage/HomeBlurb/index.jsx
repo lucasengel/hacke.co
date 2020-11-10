@@ -1,5 +1,6 @@
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import React from "react"
+import { Container } from "./styles"
 
 export const HomeBlurb = () => {
   const data = useStaticQuery(graphql`
@@ -16,13 +17,21 @@ export const HomeBlurb = () => {
   `)
 
   return (
-    <>
-      <img src="/lucas-engel.jpg" alt="Lucas Engel" />
-      <p>
-        <span>Hi! I'm {data.site.siteMetadata.author},</span> a passionate
-        multi-skilled IT professional that can turn ideas into projects,
-        projects into code, and code into real world products.
-      </p>
-    </>
+    <Container>
+      <div>
+        <p>
+          <span>Hi! I'm {data.site.siteMetadata.author},</span> I'm a Frontend
+          developer based in Toronto, Canada.
+        </p>
+        <p>
+          Currently open to opportunities. Feel free to check my{" "}
+          <Link to="project">projects</Link> and my{" "}
+          <Link to="resume">resume</Link>.
+        </p>
+      </div>
+      <div className="frame">
+        <img src="/lucas-engel.jpg" alt="Lucas Engel" />
+      </div>
+    </Container>
   )
 }
