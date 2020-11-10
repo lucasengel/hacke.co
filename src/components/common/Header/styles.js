@@ -50,21 +50,26 @@ export const Nav = styled.nav`
   ul {
     align-items: center;
     display: flex;
-    justify-content: stretch;
+    justify-content: end;
     list-style: none;
     margin-right: auto;
 
     li {
-      font-size: 1.6rem;
       height: 100%;
       margin: 0.5rem;
     }
 
     a {
+      align-items: center;
       border-radius: 0.3rem;
       color: var(--white-f1);
+      display: flex;
       padding: 0.5rem 1rem;
       text-decoration: none;
+
+      svg {
+        margin-right: 0.6rem;
+      }
 
       &:hover,
       &.active {

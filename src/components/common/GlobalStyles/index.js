@@ -27,14 +27,17 @@ const GlobalStyles = createGlobalStyle`
     background: fixed no-repeat
       radial-gradient(farthest-side ellipse at 10% 0, var(--purple-l1) 20%, var(--purple));
     background-size: cover;
-    color: var(--white);
+    color: var(--white-f1);
     font-size: 1.6rem;
+    line-height: 1.8;
     min-height: 100vh;
     font-family: var(--fonts);
   }
 
   h1, h2 {
     margin-bottom: 2rem;
+    color: var(--white-f1);
+    font-weight: 400;
   }
 
   h1 {
@@ -45,9 +48,14 @@ const GlobalStyles = createGlobalStyle`
     font-size: 2.6rem;
   }
 
-  p {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+  a {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 250ms ease;
+
+    &:hover{
+      color: var(--pink);
+    }
   }
 `
 

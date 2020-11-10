@@ -1,13 +1,17 @@
 import React from "react"
 import { Container } from "./styles"
 
-function Footer() {
+export const Footer = () => {
   return (
     <Container>
       <p>check me on: </p>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/lucasengel">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/lucasengel"
+          >
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -19,7 +23,11 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://linkedin.com/in/lucasengel">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://linkedin.com/in/lucasengel"
+          >
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -31,7 +39,11 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/lucasengel">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/lucasengel"
+          >
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -43,7 +55,11 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://instagram.com/hacke.co">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://instagram.com/hacke.co"
+          >
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -55,7 +71,11 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://flickr.com/photos/lucasengel">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://flickr.com/photos/lucasengel"
+          >
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -70,5 +90,3 @@ function Footer() {
     </Container>
   )
 }
-
-export default Footer

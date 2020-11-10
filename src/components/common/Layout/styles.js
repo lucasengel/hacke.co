@@ -5,3 +5,11 @@ export const Container = styled.div`
   flex-direction: column;
   min-height: 100vh;
 `
+
+export const Main = styled.main`
+  flex: 1;
+  margin: 0 auto;
+  max-width: 70rem;
+  width: 100%;
+  padding: 2rem;
+`

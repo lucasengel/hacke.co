@@ -1,8 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FiStar, FiPaperclip } from "react-icons/fi"
+
 import { Container, Logo, Nav } from "./styles"
 
-function Header() {
+export const Header = () => {
   return (
     <Container>
       <Logo>
@@ -22,17 +24,13 @@ function Header() {
         <ul>
           <li>
             <Link activeClassName="active" to="/projects">
+              <FiStar size={18} />
               Projects
             </Link>
           </li>
           <li>
-            <Link activeClassName="active" to="/about">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link activeClassName="active" to="/contact">
-              Contact
+            <Link activeClassName="active" to="/resume">
+              <FiPaperclip size={18} /> Resume
             </Link>
           </li>
         </ul>
@@ -40,5 +38,3 @@ function Header() {
     </Container>
   )
 }
-
-export default Header

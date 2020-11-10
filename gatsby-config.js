@@ -15,14 +15,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-typescript",
-      options: {
-        isTSX: true, // defaults to false
-        jsxPragma: "jsx", // defaults to "React"
-        allExtensions: true, // defaults to false
-      },
-    },
-    {
       resolve: "gatsby-plugin-styled-components",
       options: {},
     },
@@ -37,6 +29,7 @@ module.exports = {
         path: `${__dirname}/src/content/projects`,
       },
     },
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -44,7 +37,16 @@ module.exports = {
         footnotes: true,
         pedantic: true,
         gfm: true,
-        plugins: [],
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
       },
     },
   ],
