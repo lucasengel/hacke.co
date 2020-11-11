@@ -37,11 +37,11 @@ export const SEO = ({ description, lang, meta = [], title }) => {
           content: site.siteMetadata.author,
         },
         {
-          name: `og: url`,
+          name: `og:url`,
           content: site.siteMetadata.siteUrl,
         },
         {
-          name: `og: image`,
+          name: `og:image`,
           content: site.siteMetadata.image,
         },
         {
