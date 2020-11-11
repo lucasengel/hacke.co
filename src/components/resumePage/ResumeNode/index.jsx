@@ -14,11 +14,14 @@ export const ResumeNode = ({ title, start, end, institution, description }) => {
           {end ? ` – ${end}` : ""}
         </span>
       </div>
-      <ul>
-        {Array.isArray(description) &&
-          description.map((item, index) => <li key={index}>{item}</li>)}
-        {typeof description === "string" && <p>description</p>}
-      </ul>
+      {Array.isArray(description) && (
+        <ul>
+          {description.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      )}
+      {typeof description === "string" && <p>{description}</p>}
     </Container>
   )
 }

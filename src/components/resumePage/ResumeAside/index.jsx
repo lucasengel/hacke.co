@@ -17,7 +17,9 @@ export const ResumeAside = ({ profile }) => {
 
       <div className="bio">
         <h2>Bio</h2>
-        <p className="bio-desc">{bio}</p>
+        {bio.map(paragraph => (
+          <p className="bio-desc">{paragraph}</p>
+        ))}
 
         <hr />
 

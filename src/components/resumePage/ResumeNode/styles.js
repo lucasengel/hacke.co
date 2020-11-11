@@ -24,8 +24,9 @@ export const Container = styled.section`
     color: var(--white);
     font-size: 1.2rem;
     font-variant: small-caps;
-    letter-spacing: 0.1rem;
     font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 0.5;
     text-transform: uppercase;
   }
 

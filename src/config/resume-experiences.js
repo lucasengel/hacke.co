@@ -70,35 +70,32 @@ export const experience = [
 
 export const education = [
   {
-    title: "Technical Project Manager",
-    start: "Oct 2016",
-    end: "...",
-    institution: "TygerShark",
-    description: "Project management",
+    title: "GoStack Bootcamp",
+    start: "sept 2020",
+    end: "nov 2020",
+    institution: "RocketSeat",
+    description:
+      "Two-month full-time bootcamp on React, React Native and Node. Built 3 APIs, 4 React sites, and 3 React Native apps",
+  },
+  {
+    title: "B.A. Communications, Advertising",
+    start: "jul 2007",
+    end: "jun 2011",
+    institution: "Univerdiade Federal do Rio Grande do Sul",
   },
 ]
 
 export const skills = {
-  languages: ["English", "Portuguese", "Spanish"],
+  languages: [
+    "Portuguese (native)",
+    "Spanish (intermediate)",
+    "French (learning)",
+  ],
   technical: [
-    "Project Management",
-    "ITIL",
-    "SDLC",
-    "Business Analysis",
-    "BPM",
-    "Scrum",
-    "Kanban",
-    "UML",
-    "JavaScript",
-    "Ruby on Rails",
-    "PHP",
-    "Node.js",
-    "Angular",
-    "React.js",
-    "Meteor",
-    "MongoDB",
-    "MySQL",
-    "PostGreSQL",
-    "*NIX",
+    "React",
+    "React Native",
+    "Node",
+    "Typescript",
+    "Web Accessibility",
   ],
 }

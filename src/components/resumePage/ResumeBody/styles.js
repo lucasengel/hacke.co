@@ -13,6 +13,10 @@ export const Container = styled.main`
     text-transform: uppercase;
   }
 
+  p {
+    font-size: 1.4rem;
+  }
+
   @media (max-width: 700px) {
     padding: 1.5rem 0;
   }
