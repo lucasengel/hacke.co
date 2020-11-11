@@ -30,6 +30,7 @@ export const ResumeBody = ({ experience, education, skills }) => {
               key={index}
               title={title}
               start={start}
+              end={end}
               institution={institution}
               description={description}
             />
