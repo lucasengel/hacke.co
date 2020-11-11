@@ -5,7 +5,9 @@ import { ProjectsContainer } from "../components/projectsPage"
 const ProjectsPage = () => {
   return (
     <Layout>
-      <SEO title={`Projects`} />
+      <SEO
+        title={`Projects · Lucas Engel · Frontend Developer · Toronto, Canada`}
+      />
       <ProjectsContainer />
     </Layout>
   )

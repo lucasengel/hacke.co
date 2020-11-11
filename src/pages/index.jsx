@@ -5,7 +5,7 @@ import { HomeBlurb } from "../components/indexPage"
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title={`Home`} />
+      <SEO title={`Lucas Engel · Frontend Developer · Toronto, Canada`} />
       <HomeBlurb />
     </Layout>
   )

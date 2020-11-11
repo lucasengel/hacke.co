@@ -8,7 +8,6 @@ export const SEO = ({ description, lang, meta = [], title }) => {
       query {
         site {
           siteMetadata {
-            titleTemplate
             description
             author
             lang
@@ -26,7 +25,6 @@ export const SEO = ({ description, lang, meta = [], title }) => {
   return (
     <Helmet
       defaultTitle={site.siteMetadata.author}
-      titleTemplate={site.siteMetadata.titleTemplate}
       meta={[
         {
           name: `description`,
@@ -37,11 +35,11 @@ export const SEO = ({ description, lang, meta = [], title }) => {
           content: site.siteMetadata.author,
         },
         {
-          name: `og:url`,
+          property: `og:url`,
           content: site.siteMetadata.siteUrl,
         },
         {
-          name: `og:image`,
+          property: `og:image`,
           content: site.siteMetadata.image,
         },
         {

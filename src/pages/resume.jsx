@@ -11,7 +11,9 @@ import { profile } from "../config/resume-profile"
 const Resume = () => {
   return (
     <Layout>
-      <SEO title={`Resume`} />
+      <SEO
+        title={`Resume · Lucas Engel · Frontend Developer · Toronto, Canada`}
+      />
       <ResumeContainer>
         <ResumeAside profile={profile} />
         <ResumeBody

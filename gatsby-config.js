@@ -6,7 +6,6 @@
 
 module.exports = {
   siteMetadata: {
-    titleTemplate: `%s · Lucas Engel · Frontend Developer · Toronto, Canada`,
     author: "Lucas Engel",
     siteUrl: "https://www.hacke.co",
     image: "https://www.hacke.co/lucas-engel.jpg",
