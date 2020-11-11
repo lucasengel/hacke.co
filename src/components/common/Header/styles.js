@@ -13,10 +13,14 @@ export const Container = styled.header`
 `
 
 export const Logo = styled.div`
-  transition: all 250ms ease;
+  transition: transform 250ms ease;
 
   &:hover {
     transform: scale(1.03);
+
+    a {
+      color: var(--mustard);
+    }
   }
 
   @media (max-width: 700px) {
@@ -39,6 +43,7 @@ export const Logo = styled.div`
     font-size: 2.8rem;
     font-weight: 700;
     margin-left: 2rem;
+    transition: color 250ms ease;
   }
 `
 
@@ -50,7 +55,7 @@ export const Nav = styled.nav`
   ul {
     align-items: center;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     list-style: none;
     margin-right: auto;
 
@@ -61,11 +66,13 @@ export const Nav = styled.nav`
 
     a {
       align-items: center;
+      background-color: transparent;
       border-radius: 0.3rem;
       color: var(--white-f1);
       display: flex;
       padding: 0.5rem 1rem;
       text-decoration: none;
+      transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
 
       svg {
         margin-right: 0.6rem;
@@ -73,7 +80,7 @@ export const Nav = styled.nav`
 
       &:hover,
       &.active {
-        background: var(--white-f2);
+        background-color: var(--white-f2);
         color: var(--purple);
       }
     }

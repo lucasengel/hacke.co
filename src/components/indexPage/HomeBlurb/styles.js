@@ -15,7 +15,7 @@ export const Container = styled.div`
     justify-content: center;
     flex-shrink: 0;
     height: 20rem;
-    margin-left: 3rem;
+    margin-left: 4rem;
     overflow: hidden;
     width: 20rem;
 
@@ -32,7 +32,7 @@ export const Container = styled.div`
   p {
     color: var(--white-f2);
     font-size: 2.8rem;
-    line-height: 1.4;
+    line-height: 1.2;
 
     span {
       color: var(--mustard);
@@ -46,17 +46,36 @@ export const Container = styled.div`
     & + p {
       color: var(--white-f1);
       font-size: 1.8rem;
+      line-height: 1.6;
 
       a {
-        background: var(--blue);
-        color: var(--mustard);
+        color: var(--white);
         display: inline-block;
         font-weight: 400;
-        padding: 0.1rem 0.5rem;
-        transition: transform 250ms ease;
+        position: relative;
+        transition: transform 250ms ease, color 250ms ease;
+
+        &:after {
+          background-color: var(--blue);
+          bottom: 0px;
+          content: "";
+          height: 0.3rem;
+          left: 50%;
+          position: absolute;
+          transform: translateX(-50%);
+          transition: width 250ms ease 0s, height 250ms ease 0s;
+          width: 100%;
+          z-index: -1;
+        }
 
         &:hover {
+          color: var(--mustard);
           transform: skew(-3deg, -3deg);
+
+          &:after {
+            height: 105%;
+            width: 110%;
+          }
         }
       }
     }

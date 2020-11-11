@@ -4,7 +4,7 @@ export const Container = styled.footer`
   align-items: baseline;
   color: var(--white-f2);
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 1rem;
 
   p {

@@ -6,14 +6,15 @@ const GlobalStyles = createGlobalStyle`
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     --shadow: 1rem 1rem 1.5rem #0009;
     --blue: #007ea7;
+    --grey: #575f66;
     --mustard: #FFD447;
     --pink: #e56399;
-    --purple-l1: #383861;
     --purple: #22223b;
+    --purple-l1: #383861;
     --teal: #55868c;
-    --white-f1: #e3e7ee99;
-    --white-f2: #e3e7ee66;
-    --white: #e3e7ee;
+    --white: #fafafa;
+    --white-f1: #fafafa99;
+    --white-f2: #fafafa66;
   }
 
   * {
@@ -60,6 +61,7 @@ const GlobalStyles = createGlobalStyle`
     &:hover{
       color: var(--pink);
     }
+
   }
 `
 
