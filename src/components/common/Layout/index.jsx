@@ -8,6 +8,14 @@ import { Container, Main } from "./styles"
 export const Layout = ({ children }) => {
   return (
     <Container>
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KK74JP"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe>
+      </noscript>
       <GlobalStyles />
       <Helmet>
         <link rel="icon" href="hacke.svg" type="image/svg+xml" />
