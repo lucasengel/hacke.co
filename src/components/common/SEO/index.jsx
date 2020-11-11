@@ -12,6 +12,8 @@ export const SEO = ({ description, lang, meta = [], title }) => {
             description
             author
             lang
+            image
+            siteUrl
           }
         }
       }
@@ -32,6 +34,18 @@ export const SEO = ({ description, lang, meta = [], title }) => {
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: `author`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `og: url`,
+          content: site.siteMetadata.siteUrl,
+        },
+        {
+          name: `og: image`,
+          content: site.siteMetadata.image,
         },
         {
           property: `og:title`,
