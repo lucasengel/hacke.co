@@ -75,7 +75,7 @@ export const SEO = ({ description, lang, meta = [], title }) => {
       ].concat(meta)}
     >
       <script>
-        {(function (w, d, s, l, i) {
+        {`(function (w, d, s, l, i) {
           w[l] = w[l] || []
           w[l].push({
             "gtm.start": new Date().getTime(),
@@ -87,7 +87,7 @@ export const SEO = ({ description, lang, meta = [], title }) => {
           j.async = true
           j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl
           f.parentNode.insertBefore(j, f)
-        })(window, document, "script", "dataLayer", "GTM-KK74JP")}
+        })(window, document, "script", "dataLayer", "GTM-KK74JP")`}
       </script>
       <html lang={metaLang} />
       <title>{title}</title>
