@@ -3,8 +3,6 @@ import { Container } from "./styles"
 import { ProjectsListItem } from "../"
 
 export const ProjectsList = ({ projects }) => {
-  console.log("ProjectsListItem", ProjectsListItem)
-
   return (
     <Container>
       <h1>Projects</h1>

@@ -4,7 +4,7 @@ order: 2
 title: "GoRestaurant"
 description: "Mobile food ordering app"
 repo: "https://github.com/lucasengel/restaurant-app"
-image: "/projects/gorestaurant.png"
+image: "/images/gorestaurant.png"
 ---
 
 # GoRestaurant

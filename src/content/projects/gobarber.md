@@ -4,7 +4,7 @@ order: 1
 title: "GoBarber"
 description: "Barbershop appointment management system"
 repo: "https://github.com/lucasengel/gobarber"
-image: "/projects/gobarber.png"
+image: "/images/gobarber.png"
 ---
 
 # GoBarber

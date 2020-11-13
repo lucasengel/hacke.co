@@ -4,7 +4,7 @@ order: 3
 title: "GoMarketplace"
 description: "Mobile shopping cart"
 repo: "https://github.com/lucasengel/shopping-cart-app"
-image: "/projects/gomarketplace.png"
+image: "/images/gomarketplace.png"
 ---
 
 # GoMarketplace
