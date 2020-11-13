@@ -4,7 +4,8 @@ const GlobalStyles = createGlobalStyle`
   :root {
     --fonts: Lato, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    --shadow: 1rem 1rem 1.5rem #0009;
+    --shadow-color: #0009;
+    --shadow: 1rem 1rem 1.5rem var(--shadow-color);
     --blue: #007ea7;
     --grey: #575f66;
     --mustard: #FFD447;

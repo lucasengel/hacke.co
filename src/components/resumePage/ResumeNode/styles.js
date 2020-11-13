@@ -15,7 +15,7 @@ export const Container = styled.section`
       text-transform: uppercase;
     }
 
-    span {
+    date {
       font-size: 1.4rem;
     }
   }

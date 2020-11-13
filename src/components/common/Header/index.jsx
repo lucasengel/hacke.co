@@ -22,12 +22,12 @@ export const Header = () => {
 
       <Nav>
         <ul>
-          {/* <li>
+          <li>
             <Link activeClassName="active" to="/projects">
               <FiStar size={18} />
               Projects
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link activeClassName="active" to="/resume">
               <FiPaperclip size={18} /> Resume

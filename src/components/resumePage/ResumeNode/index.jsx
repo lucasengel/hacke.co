@@ -9,10 +9,10 @@ export const ResumeNode = ({ title, start, end, institution, description }) => {
           <h3>{title}</h3>
           <small>{institution}</small>
         </div>
-        <span>
+        <date>
           {start}
           {end ? ` – ${end}` : ""}
-        </span>
+        </date>
       </div>
       {Array.isArray(description) && (
         <ul>

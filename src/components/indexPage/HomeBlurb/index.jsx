@@ -25,7 +25,7 @@ export const HomeBlurb = () => {
         </p>
         <p>
           Currently open to opportunities. Feel free to check my{" "}
-          {/* <Link to="project">projects</Link> and my{" "} */}
+          <Link to="project">projects</Link> and my{" "}
           <Link to="resume">resume</Link>.
         </p>
       </div>

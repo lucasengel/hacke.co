@@ -2,7 +2,7 @@ export const profile = {
   name: `Lucas Engel`,
   title: `Frontend Developer`,
   bio: [
-    `Frontend developer with experience in Project Management, Business Analysis and Graphic Design.`,
+    `Frontend developer with experience in Project Management, Business Analysis, Marketing and Graphic Design.`,
     `Specialized in React, TypeScript, Node.js.`,
   ],
   phone: `+1 (705) 970-6195`,

@@ -11,6 +11,7 @@ export const Layout = ({ children }) => {
       <noscript>
         <iframe
           src="https://www.googletagmanager.com/ns.html?id=GTM-KK74JP"
+          title="Google Tag Manager"
           height="0"
           width="0"
           style={{ display: "none", visibility: "hidden" }}

@@ -17,15 +17,16 @@ export const query = graphql`
   }
 `
 
-const Projects = props => {
-  const { frontmatter, html } = props.data.markdownRemark
+const Projects = ({ data }) => {
+  console.log(data)
+  // const { frontmatter, html } = data.markdownRemark
 
   return (
     <Layout>
+      {/* <SEO title={frontmatter.title} description={frontmatter.description} />
       <Container>
-        <SEO title={frontmatter.title} description={frontmatter.description} />
         <div dangerouslySetInnerHTML={{ __html: html }}></div>
-      </Container>
+      </Container> */}
     </Layout>
   )
 }

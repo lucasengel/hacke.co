@@ -7,8 +7,8 @@
 module.exports = {
   siteMetadata: {
     author: "Lucas Engel",
-    siteUrl: "https://www.hacke.co",
-    image: "https://www.hacke.co/lucas-engel.jpg",
+    siteUrl: "https://hacke.co",
+    image: "https://hacke.co/lucas-engel.jpg",
     lang: "en-CA",
     description:
       "Frontend developer base in Toronto, Canada. Focused on Javascript, React, Typescript and NodeJs.",
