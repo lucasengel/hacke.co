@@ -15,9 +15,10 @@ const Projects = () => {
               title
               description
               repo
-              image
+              image {
+                relativePath
+              }
             }
-            html
           }
         }
       }

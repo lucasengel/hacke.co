@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import { Container } from "./styles"
 
@@ -8,7 +8,7 @@ export const ProjectsListItem = ({ project }) => {
 
   return (
     <Container>
-      <img src={image} alt={title} />
+      <img src={`/images/${image.relativePath}`} alt={title} />
       <div>
         <h2>{title}</h2>
         <p>{description}</p>

@@ -23,10 +23,17 @@ module.exports = {
       options: {},
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/images`,
+        name: "images",
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `projects`,
         path: `${__dirname}/src/content/projects`,
+        name: `projects`,
       },
     },
     `gatsby-plugin-sharp`,
@@ -38,7 +45,12 @@ module.exports = {
         pedantic: true,
         gfm: true,
         plugins: [
-          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-relative-images`,
+            options: {
+              staticFolderName: "static",
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {

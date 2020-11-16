@@ -1,5 +1,5 @@
 ---
-slug: "shoppingcart"
+slug: "gomarketplace"
 order: 3
 title: "GoMarketplace"
 description: "Mobile shopping cart"
