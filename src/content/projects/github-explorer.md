@@ -2,7 +2,7 @@
 slug: "github-explorer"
 order: 5
 title: "Github_Explorer"
-description: "Program Finder prototype for George Brown College"
+description: "Bookmark Github repositories and track their issues"
 repo: "https://github.com/lucasengel/github-explorer"
 image: "/images/github-explorer.png"
 ---
