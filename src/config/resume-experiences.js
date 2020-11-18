@@ -5,7 +5,6 @@ export const experience = [
     start: "feb 2018",
     end: "sept 2020",
     description: [
-      "Implemented Pardot integrations with Salesforce and Drupal CMS",
       "Integral to the launched the College’s new Drupal-powered website, achieved under pandemic conditions",
       "Scoped and documented technical and business requirements for a range of new system builds and inte-grations",
       "Planned and executed seamless data migration from old .NET CMS to new PHP powered CMS",
@@ -13,6 +12,7 @@ export const experience = [
       "Built sites and prototypes in Vue.js and React",
       "Lead quality assurance testing and remediation processes",
       "Modelled data structures for website and software integration",
+      "Implemented Pardot integrations with Salesforce and Drupal CMS",
     ],
   },
   {
