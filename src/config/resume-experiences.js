@@ -56,7 +56,7 @@ export const experience = [
     start: "apr 2013",
     end: "may 2014",
     description: [
-      "Scoped and documented technical business requirements for Brazil's largest cloth retailer ecommerce and marketing sites",
+      "Scoped and documented technical business requirements for Brazil's largest clothing retailer ecommerce and marketing sites",
       "Coordinated work of 20+ people on development, quality assurance and deployment teams",
     ],
   },
