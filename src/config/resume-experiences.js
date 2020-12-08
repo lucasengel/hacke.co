@@ -2,7 +2,7 @@ export const experience = [
   {
     title: "Web Developer",
     institution: "George Brown College",
-    start: "feb 2018",
+    start: "nov 2017",
     end: "sept 2020",
     description: [
       "Integral to the launched the College’s new Drupal-powered website, achieved under pandemic conditions",
@@ -22,7 +22,9 @@ export const experience = [
     end: "jul 2017",
     description: [
       "End-to-end implementation of a professional automation system, Accelo, for a team of 50+",
-      "Launched websites for BMO branches, Vena Solutions and several Shopify ecommerce sites",
+      "Launched websites for BMO branches, Canadian Tire, Vena Solutions and several Shopify ecommerce sites",
+      "Coordinated a team of 10 developing custom Shopify dashboards and store templates (Liquid)",
+      "Gathered client requirements and converted into technical requirements for internal use",
       "Integrated email marketing automation tools",
     ],
   },
@@ -31,7 +33,11 @@ export const experience = [
     institution: "Chef Bruno",
     start: "oct 2015",
     end: "sept 2016",
-    description: ["Frontend development in AngularJS"],
+    description: [
+      "Built multiple revisions of Sketch designs in a collaboration with the design team",
+      "Frontend development in AngularJS, HTML, SASS",
+      "Used D3.js for graphics, Bootstrap as CSS framework, Grunt as a build tool",
+    ],
   },
   {
     title: "Co-Founder",
@@ -39,8 +45,8 @@ export const experience = [
     start: "feb 2014",
     end: "sept 2015",
     description: [
-      "Implemented behaviour tracking, multi-variant testing and analytics tools",
       "Built multiple versions of a web-based Learning Management Systems, on WordPress and on Ruby on Rails",
+      "Implemented behaviour tracking, multi-variant testing and analytics tools",
       "Optimized pages to better capture organic traffic through SEO",
     ],
   },
