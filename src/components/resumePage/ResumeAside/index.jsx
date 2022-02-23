@@ -25,8 +25,8 @@ export const ResumeAside = ({ profile }) => {
 
         <h2>Contact</h2>
 
-        <h3>Phone</h3>
-        <p>{phone}</p>
+        {/* <h3>Phone</h3>
+        <p>{phone}</p> */}
 
         <h3>Email</h3>
         <p>
