@@ -1,0 +1,50 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[14].use[5]!./src/components/ResumeNode/ResumeNode.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.resume-node {
+  margin-bottom: 2rem;
+}
+.resume-node > div {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+.resume-node > div h3 {
+  color: var(--mustard);
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.resume-node > div span.date {
+  font-size: 1.4rem;
+}
+.resume-node small {
+  color: var(--white);
+  font-size: 1.2rem;
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 0.5;
+  text-transform: uppercase;
+}
+.resume-node ul {
+  list-style: circle;
+  margin-left: 2rem;
+  padding: 0;
+}
+.resume-node ul li {
+  font-size: 1.4rem;
+}
+.resume-node p {
+  color: var(--white-f1);
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin: 0.7rem 0;
+  text-align: justify;
+}
+@media (max-width: 700px) {
+  .resume-node div {
+    flex-direction: column;
+  }
+}
