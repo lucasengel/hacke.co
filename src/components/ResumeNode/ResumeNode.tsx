@@ -1,6 +1,6 @@
-import { IExperience } from "@/types";
+import { IExperience } from "@/types"
 
-import "./ResumeNode.scss";
+import "./ResumeNode.scss"
 
 const ResumeNode: React.FC<IExperience> = ({
   title,
@@ -17,7 +17,7 @@ const ResumeNode: React.FC<IExperience> = ({
       </div>
       <span className="date">
         {start}
-        {end ? ` – ${end}` : "..."}
+        {end ? ` – ${end}` : " - ..."}
       </span>
     </div>
     {Array.isArray(description) && (
@@ -29,6 +29,6 @@ const ResumeNode: React.FC<IExperience> = ({
     )}
     {typeof description === "string" && <p>{description}</p>}
   </section>
-);
+)
 
-export default ResumeNode;
+export default ResumeNode
