@@ -3,12 +3,11 @@
     "name": "Lucas Engel",
     "title": "Software Engineer",
     "bio": [
-      "I have 4+ years of experience in software development and 7 years in IT Project Management and Business Analysis.",
-      "I’m currently working with mobile app development in React Native, Redux, Typeorm, and Typescript and have also worked with React, Vue.js and AngularJS."
+      "Meet a proactive software engineer with 5+ years experience. With a knack for business analysis and project management. Always on the lookout for innovative solutions to improve dev experience. When I'm not tinkering with code, you'll find me hitting the wilderness with my trusty furry companion."
     ],
     "phone": "+1 (705) 970-6195",
     "email": "lucasengel@gmail.com",
-    "website": "https://hacke.co",
+    "website": "https://lucasengel.com",
     "address": "M6C 2K9, Toronto ON",
     "linkedin": "https://linkedin.com/in/lucasengel"
   },
@@ -22,7 +21,7 @@
         "Leading the modernization initiative of a 5-year old app",
         "Conducted the implementation of an internal UI component library",
         "Helped transition the codebase from enzyme to React Testing Library",
-        "Continuously contributed to build performance optimizations and module bundling configurations"
+        "Continuously contributed to build performance optimizations and bundling configurations"
       ]
     },
     {
